@@ -10,12 +10,7 @@ ul:first-of-type{
     padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #CC1C0D;
     background-color: #DFE3E6;
     border: 1px solid #929CA4;
@@ -43,7 +38,7 @@ section > p {
     margin-top: 0;
 }
 
-.pricing > div{
+.pricing > div {
     float :left;
     width: 24%;
     border: 1px solid #929CA4;
@@ -77,3 +72,10 @@ section > p {
     color: #000;
 } 
 
+#vretain, #vconvert, #vprospect{
+    font-weight: bold;
+}
+
+ul > li > ul {
+    margin-left: 25px;
+}
